@@ -1,6 +1,8 @@
 //import { Contador } from "./Components/Contador";
 //import { ContadorConHook } from "./Components/ContadorConHook";
-import { Login } from "./Components/Login";
+// import { Login } from "./Components/Login";
+import { Formularios } from "./Components/Formularios";
+//import { Usuarios } from "./Components/Usuarios";
 //import { TiposBasicos } from "./Typescript/TiposBasicos";
 
 const App = () => {
@@ -11,7 +13,9 @@ const App = () => {
       {/* <TiposBasicos /> */}
       {/* <Contador/> */}
       {/* <ContadorConHook/> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <Usuarios /> */}
+      <Formularios />
     </div>
   );
 };
